@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="utf-8">
+    <link href="css/style.css" rel="stylesheet" />
+	<meta name="viewport" content="width=device-width, intial-scale=1">
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Maximo's Survey Form</h1>
+      <p id="description">We need your information to continue</p>
+    </header>
+    <div class="form">
+      <form id="survey-form">
+      <div class="group">
+        <label id="name-label" class="text">Name: <input id="name" type="text" name="name" placeholder="Enter your name..." required></label>
+        <label id="email-label" class="text">Email: <input id="email" type="email" name="email" placeholder="Enter your email..." required></label>
+        <label id="number-label" class="text">Date of birth: <br><input id="number" type="number" name="birth-date" min="1" max="31" placeholder="Day" required><input id="number1" type="number" name="birth-date" min="1" max="12" placeholder="Month" required><input id="number2" type="number" name="birth-date" min="1900" max="2022" placeholder="Year" required></label>
+        <label class="text">Gender:<br> 
+          <select id="dropdown">
+            <option>male</option>
+            <option>female</option>
+          </select>
+        </label>
+      </div>
+      <div class="group">
+        <h3>Do you like Mr.Worldwide?</h3>
+        <label class="pitbull"><input id="yes" type="radio" name="pitbull" value="Yes" checked> Yes.</label>
+        <label class="pitbull"><input id="no" type="radio" name="pitbull" value="No"> No.</label>
+        <label class="pitbull"><input id="unknown" type="radio" name="pitbull" value="Unknown"> Never heard of him.<br></label>
+      </div>
+      <div class="group">
+        <h3>What are your favourite Mr.Worldwide's songs?</h3>
+        <label class="song"><input id="give-me-everything" type="checkbox" name="song" value="Give-me-everything" checked> Give Me Everything</label>
+        <label class="song"><input id="timber" type="checkbox" name="song" value="Timber"> Timber</label>
+        <label class="song"><input id="feel-this-moment" type="checkbox" name="song" value="Feel-this-moment"> Feel This Moment</label>
+        <label class="song"><input id="fireball" type="checkbox" name="song" value="Fireball"> Fireball</label>
+        <label class="song"><input id="can't-stop-us-now" type="checkbox" name="song" value="Can't-stop-us-now"> Can't Stop Us Now</label>
+        <label class="song"><input id="international-love" type="checkbox" name="song" value="International-love"> International-love</label>
+        <label class="song"><input id="other" type="checkbox" name="song" value="Other"> Other, coment:<textarea name="other" rows="2" cols="40"></textarea></label>
+      </div>
+      <input id="submit" type="submit" value="Submit">
+    </div>
+  </body>
+</html>

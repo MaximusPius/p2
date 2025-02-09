@@ -1,0 +1,120 @@
+body {
+  background-image: linear-gradient( 90deg, #3333cccc, #6666eecc), url(https://images.unsplash.com/photo-1524661135-423995f22d0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80);
+  background-size: cover;
+  margin: 0;
+}
+
+label {
+  display: block;
+}
+
+input[name="birth-date"] {
+  width: 60px;
+}
+
+textarea {
+  display: block;
+}
+
+header {
+  margin: 10px auto;
+  text-align: center;
+  max-width: 600px;
+  min-width: 300px;
+  
+  color: #bbbbbb;
+  padding: 5px 0;
+ 
+}
+
+h1 {
+  margin: 5px 0 3px 0;
+  font-size: 40px;
+  font-family: coolvetica;
+  letter-spacing: 3px;
+}
+
+p {
+  margin: 2px 0 5px 0;
+}
+
+.group {
+  max-width: 600px;
+  min-widht: 300px;
+  color: #dddddd;
+  margin: 10px 15px;
+  border-bottom: 5px solid #bbbbbb;
+  padding-bottom: 5px;
+}
+
+label {
+  font-size: 20px;
+}
+
+.form {
+  background-color: #091663cc;
+  box-shadow: 0 0 10px 10px #091663cc; 
+  border-radius: 10px;
+  margin: 10px auto;
+  max-width: 550px;
+  min-widht: 300px;
+  padding: 5px 10px;
+  font-family: sans-serif;
+}
+
+#name, #email {
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid white;
+}
+
+input, select {
+  height: 30px;
+}
+
+#name, #email, input[type="number"], select, textarea {
+  border-radius: 3px;
+  border: 1px solid white
+}
+
+.song, .pitbull {
+  margin: 1px;
+  padding: 0;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  vertical-align: middle;
+  margin: 0px;
+  width: 18px;
+}
+
+.text {
+  margin: 10px 0;
+}
+
+#name, #email, input[type="number"], select {
+  margin: 5px 0;
+}
+
+input[type="number"] {
+  margin-right: 5px;
+}
+
+h3{
+  font-size: 22px;
+}
+
+input[type="submit"] {
+  color: #bbbbbb;
+  background-color: #4C5DBC;
+  border: 3px solid #4C5DBC;
+  border-radius: 5px;
+  margin: 30px auto 0px auto;
+  display: block;
+  width: 300px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-style: bold;
+}
